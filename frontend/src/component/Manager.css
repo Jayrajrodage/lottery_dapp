@@ -1,0 +1,44 @@
+.center {
+    margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+#connected, #balance, #winner {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#account, #lwinner, #ethbalance {
+  font-weight:bolder;
+  color: #000000;
+  font-size: larger;
+}
+
+.buttonWinner, .buttongetbal {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.buttonWinner:hover, .buttongetbal:hover {
+  background-color: #3e8e41;
+}
