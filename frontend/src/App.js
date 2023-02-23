@@ -1,4 +1,4 @@
-import abi from "./artifacts/Contracts/Lottery.sol/Lottery.json";
+import abi from "./Artifacts/Lottery.json";
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import Intro from "./component/Intro";
