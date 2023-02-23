@@ -58,3 +58,4 @@ const Players = ({ state, contractAddress, account }) => {
     );
 };
 export default Players;
+//ok
